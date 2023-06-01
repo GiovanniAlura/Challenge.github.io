@@ -1,0 +1,116 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 150%;
+    overflow-y: hidden;
+    
+}
+
+html { 
+    background: url("./Da\ Vinci.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.logo{
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 20%;
+    text-shadow: 50px 50px 50px black;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    height: 400px;
+    border: none;
+    border-radius: 24px;
+    color: #53051e;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+.titulo{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 10px 20px 30px black;
+}
+
+::placeholder { color: #53051e; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 630px;
+    background: white;
+    background-image: url("leo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #53051e;
+    margin-left: 141px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #53051e;
+    border-radius: 24px;
+    color: #53051e;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #53051e;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background-color: #53051e;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.informacion {
+    color: whitesmoke;
+    font-size:40px;
+    font-weight: bold;
+    text-shadow: 10px 20px 30px black;
+    
+}
+.footer {
+    color: white;
+}
